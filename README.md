@@ -13,7 +13,10 @@ The task was to determine if a patient with any given indicators such as BMI, ca
 ### Data
 
 * Data:
-    * Input: The type of input is a directly forked tabular dataset from the UCI Machine Learning Repository, replicating a CSV file of features, output: tabular dataset with all feature names and description, roles, data type, demographic, and any missing values. There were 22 columns and 253,680 rows. I used the raw dataset with all instances. I used 177,576 patients for training, 38, 052 for testing, and 38,052 for validation. 
+    * Input: a directly forked tabular dataset from the UCI Machine Learning Repository, replicating a CSV file of features
+    * output: tabular dataset with all feature names and description, roles, data type, demographic, and any missing values.
+    * There were 22 columns and 253,680 rows. I used the raw dataset with all instances.
+    * 177,576 patients for training, 38,052 for testing, and 38,052 for validation. 
 
 #### Preprocessing / Clean up
 

@@ -104,9 +104,10 @@ The next thing I would try is a different synthetic sampling technique to help t
 The UCI Machine Learning Repository must be installed in your notebook in order to fetch the dataset directly from their repository. 
 1. pip install ucimlrepo
 2. from ucimlrepo import fetch_ucirepo
- cdc_diabetes_health_indicators = fetch_ucirepo(id=891)
+cdc_diabetes_health_indicators = fetch_ucirepo(id=891)
 
 X = cdc_diabetes_health_indicators.data.features
+
 y = cdc_diabetes_health_indicators.data.targets
 
 print(cdc_diabetes_health_indicators.metadata)

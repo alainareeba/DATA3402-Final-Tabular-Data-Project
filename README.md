@@ -6,7 +6,7 @@ This repository has an attempt to apply machine learning methodology to the CDC'
 
 ## Overview
 
-The task was to determine if a patient with any given indicators such as BMI, cardiac history, high cholesterol, etc., is at risk for diabetes or not. The approach to this problem and using this dataset was to set it up as classification task. I used Random Forest as the main model with all of the features as input. I compared the performance of 3 models: Random Forest, XGBoost, and KNN. I also compared the baseline model a class imbalance issue and the other three models with the class imbalance solved. Our best model had accuracy score of 79% and weighted recall of 79%. 
+The task was to determine if a patient with any given indicators such as BMI, cardiac history, high cholesterol, etc., is at risk for diabetes or not. The approach to this problem and using this dataset was to set it up as classification task. I used Random Forest as the main model with all of the features as input. I compared the performance of 3 models: Random Forest, XGBoost, and KNN. I also compared the baseline model of a class imbalance issue and the other three models with the class imbalance solved. Our best model had accuracy score of 79% and weighted recall of 79%. 
 
 ## Summary of Workdone
 

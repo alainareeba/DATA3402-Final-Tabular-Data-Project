@@ -71,7 +71,7 @@ SMOTE Random Forest ROC Curve (slightly different)
 
 Model Comparison Table (Only focused on recall as false negatives are a priority)
 
-Our key metric for our model was recall and accuracy. Recall prioritizes identify true positives, minimizing false negatives (as those are the most detrimental in the medical field). Accuracy shows the total proportion of correct predictions. Our ROC Curves 
+Our key metric for our model was recall and accuracy. Recall prioritizes identify true positives, minimizing false negatives (as those are the most detrimental in the medical field). Accuracy shows the total proportion of correct predictions. Our ROC curves plot false positives against true positives and is important for determining what the model considers as a positive and a negative. This plot is indicating that our specific model is working relatively poorly compared to the baseline ROC, given the ratio of the rate of true positives to the rate of false negatives. 
 
 ### Conclusions
 
